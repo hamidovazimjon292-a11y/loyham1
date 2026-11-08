@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Cream — Red Flower Ice-cream</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Orqa fon videosi -->
+        <video class="bg-video" autoplay muted loop playsinline>
+            <source src="./img/video_2026-11-07_10-06-21.mp4" type="video/mp4">
+        </video>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <img src="./img/f78ab57bc1358d4a32e30c0acc391fd6b0d58c5c.png" alt="Drop Cream Logo">
+                <div class="logo-text">
+                    <span>Drop</span>
+                    <span>Cream</span>
+                </div>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#know-us">Know Us</a>
+                <a href="#close-by">Close By</a>
+                <a href="#faq-modal" style="color: #ff4757; font-weight: bold;"><i class="fas fa-question-circle"></i> FAQ</a>
+                <a href="#promo-modal" class="promo-link"><i class="fas fa-ticket-alt"></i> Promokod</a>
+                
+                <!-- SAVATCHA TUGMASI -->
+                <a href="#cart-1" class="cart-btn" style="color: #2ecc71; font-weight: bold;">
+                    <i class="fas fa-shopping-cart"></i> Savatcha
+                </a>
+
+                <a href="#search-modal" class="search-btn"><i class="fas fa-search"></i></a>
+            </nav>
+
+            <a href="#menu-modal" class="menu-burger">
+                <i class="fas fa-bars"></i>
+            </a>
+        </header>
+
+        <!-- Banner / Hero -->
+        <section class="hero">
+            <div class="hero-left">
+                <h1 class="hero-title">Red Flower<br>Ice-cream</h1>
+                <p class="hero-desc">
+                    Bu loyha odamlarga marojni tanlashdi yengilashtirib beradi va bu saytga yangi qoshiladigan morojnilarni kora olishi mumkin
+                </p>
+                <div class="hero-btns">
+                    <a href="#order-now" class="btn btn-primary">Order Now</a>
+                    <a href="#book-table" class="btn btn-secondary">Book Table</a>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="user-card">
+                    <div class="user-avatar">
+                        <img src="./img/rasm1.jpg" alt="Uzi Nexus">
+                    </div>
+                    <div class="user-info">
+                        <h4>Uzi Nexus</h4>
+                        <div class="stars">★★★★★</div>
+                        <p>Indulge in frozen bliss with our irresistible ice cream delights!</p>
+                    </div>
+                </div>
+
+                <div class="choose-type-section">
+                    <span class="choose-label">Choose Type:</span>
+                    <div class="type-icons">
+                        <a href="#type-cup" class="type-btn"><i class="fas fa-ice-cream"></i></a>
+                        <a href="#type-bowl" class="type-btn"><i class="fas fa-cookie-bite"></i></a>
+                        <a href="#type-cone" class="type-btn"><i class="fas fa-stroopwafel"></i></a>
+                        <a href="#type-plus" class="type-btn"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trending -->
+        <a href="#trending-info" class="trending-badge" style="text-decoration: none;">
+            Trending 🔥
+        </a>
+
+        <!-- 4 ta Muzqaymoq Kartochkasi -->
+        <main class="products-grid">
+            <!-- Kartochka 1 -->
+            <div class="product-card glass-card">
+                <img src="./img/morojni1.jpg" alt="Assorted Ice Cream" class="prod-img">
+                <div class="prod-details">
+                    <h3>Assorted Ice Cream</h3>
+                    <span class="order-type-label">Order Type:</span>
+                    <div class="order-btns">
+                        <a href="#on-table-info" class="btn-sm active">On Table</a>
+                        <a href="#delivery-info" class="btn-sm">Delivery</a>
+                    </div>
+                    <div class="price-counter">
+                        <span class="price">Uzs-35 000 som</span>
+                        <div class="counter">
+                            <input type="number" value="1" min="1" max="3">
+                        </div>
+                    </div>
+                    <a href="#cart-1" class="add-to-cart-btn"><i class="fas fa-shopping-basket"></i> Savatchaga qo'shish</a>
+                </div>
+            </div>
+
+            <!-- Kartochka 2 -->
+            <div class="product-card white-card">
+                <img src="./img/morojni4.jpg" alt="Chocolate Ice Cream" class="prod-img">
+                <div class="prod-details">
+                    <h3>Chocolate Ice Cream</h3>
+                    <span class="order-type-label">Order Type:</span>
+                    <div class="order-btns">
+                        <a href="#on-table-info" class="btn-sm active">On Table</a>
+                        <a href="#delivery-info" class="btn-sm">Delivery</a>
+                    </div>
+                    <div class="price-counter">
+                        <span class="price">Uzs-25 000 som</span>
+                        <div class="counter">
+                            <input type="number" value="1" min="1" max="3">
+                        </div>
+                    </div>
+                    <a href="#cart-2" class="add-to-cart-btn"><i class="fas fa-shopping-basket"></i> Savatchaga qo'shish</a>
+                </div>
+            </div>
+
+            <!-- Kartochka 3 -->
+            <div class="product-card glass-card">
+                <img src="./img/morojni3.jpg" alt="Strawberry Ice Cream" class="prod-img">
+                <div class="prod-details">
+                    <h3>Strawberry Ice Cream</h3>
+                    <span class="order-type-label">Order Type:</span>
+                    <div class="order-btns">
+                        <a href="#on-table-info" class="btn-sm active">On Table</a>
+                        <a href="#delivery-info" class="btn-sm">Delivery</a>
+                    </div>
+                    <div class="price-counter">
+                        <span class="price">Uzs-20 000 som</span>
+                        <div class="counter">
+                            <input type="number" value="1" min="1" max="3">
+                        </div>
+                    </div>
+                    <a href="#cart-3" class="add-to-cart-btn"><i class="fas fa-shopping-basket"></i> Savatchaga qo'shish</a>
+                </div>
+            </div>
+
+            <!-- Kartochka 4 -->
+            <div class="product-card glass-card">
+                <img src="./img/morojni2.jpg" alt="Berry Ice Cream Cone" class="prod-img">
+                <div class="prod-details">
+                    <h3>Berry Ice Cream Cone</h3>
+                    <span class="order-type-label">Order Type:</span>
+                    <div class="order-btns">
+                        <a href="#on-table-info" class="btn-sm active">On Table</a>
+                        <a href="#delivery-info" class="btn-sm">Delivery</a>
+                    </div>
+                    <div class="price-counter">
+                        <span class="price">Uzs- 28 000 som</span>
+                        <div class="counter">
+                            <input type="number" value="1" min="1" max="3">
+                        </div>
+                    </div>
+                    <a href="#cart-4" class="add-to-cart-btn"><i class="fas fa-shopping-basket"></i> Savatchaga qo'shish</a>
+                </div>
+            </div>
+        </main>
+
+        <!-- MAXSUS KOMBO TO'PLAMLAR (SPECIAL OFFERS) BLOKI -->
+        <section class="combo-section" style="margin: 40px 0; padding: 20px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; backdrop-filter: blur(10px);">
+            <h2 style="color: #fff; text-align: center; margin-bottom: 20px; font-size: 24px;">🎁 Maxsus Kombo va Aksiyalar</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                
+                <!-- Kombo 1 -->
+                <div style="background: rgba(255, 71, 87, 0.1); border: 1px solid rgba(255, 71, 87, 0.3); padding: 20px; border-radius: 12px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <span style="background: #ff4757; color: #fff; padding: 3px 8px; border-radius: 6px; font-size: 11px; font-weight: bold;">AKSIYA 1+1=3</span>
+                        <h3 style="color: #fff; margin: 10px 0 5px 0;">Oilaviy Pirojniy & Muzqaymoq</h3>
+                        <p style="font-size: 13px; opacity: 0.8; margin-bottom: 15px;">2 ta istalgan muzqaymoq oling va 3-chisini mutlaqo bepul qo'lga kiriting!</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.1); pt: 10px;">
+                        <span style="color: #2ecc71; font-weight: bold; font-size: 16px;">60 000 so'm</span>
+                        <a href="#combo-cart-1" class="btn-sm" style="background: #ff4757; color: #fff; text-decoration: none; padding: 6px 14px; border-radius: 8px; font-weight: bold;">Buyurtma qilish</a>
+                    </div>
+                </div>
+
+                <!-- Kombo 2 -->
+                <div style="background: rgba(46, 204, 113, 0.1); border: 1px solid rgba(46, 204, 113, 0.3); padding: 20px; border-radius: 12px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <span style="background: #2ecc71; color: #fff; padding: 3px 8px; border-radius: 6px; font-size: 11px; font-weight: bold;">SUPER COMBO</span>
+                        <h3 style="color: #fff; margin: 10px 0 5px 0;">Kids Party Pack</h3>
+                        <p style="font-size: 13px; opacity: 0.8; margin-bottom: 15px;">Bolajonlar uchun 4 xil turdagi mevali va shokoladli maxsus konuslar to'plami.</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.1); pt: 10px;">
+                        <span style="color: #2ecc71; font-weight: bold; font-size: 16px;">95 000 so'm</span>
+                        <a href="#combo-cart-2" class="btn-sm" style="background: #2ecc71; color: #fff; text-decoration: none; padding: 6px 14px; border-radius: 8px; font-weight: bold;">Buyurtma qilish</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="copyright">hamidovazimjon292@gmail.com</p>
+            <div class="social-links">
+                <a href="#" target="_blank" class="social-icon google"><i class="fab fa-google"></i></a>
+                <a href="#" target="_blank" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- MODAL OYNALAR -->
+
+    <!-- ==================== 1-MAHSULOT MODALLARI ==================== -->
+    <div id="cart-1" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni1.jpg" alt="Assorted Ice Cream" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Assorted Ice Cream</h4>
+                        <span>35 000 so'm × 1 dona</span>
+                    </div>
+                    <strong class="cart-item-price">35 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-1" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-1-q2" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-1-q3" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">35 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-1-q2" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni1.jpg" alt="Assorted Ice Cream" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Assorted Ice Cream</h4>
+                        <span>35 000 so'm × 2 dona</span>
+                    </div>
+                    <strong class="cart-item-price">70 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-1" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-1-q2" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-1-q3" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">70 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-1-q3" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni1.jpg" alt="Assorted Ice Cream" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Assorted Ice Cream</h4>
+                        <span>35 000 so'm × 3 dona</span>
+                    </div>
+                    <strong class="cart-item-price">105 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-1" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-1-q2" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-1-q3" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">105 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== 2-MAHSULOT MODALLARI ==================== -->
+    <div id="cart-2" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni4.jpg" alt="Chocolate Ice Cream" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Chocolate Ice Cream</h4>
+                        <span>25 000 so'm × 1 dona</span>
+                    </div>
+                    <strong class="cart-item-price">25 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-2" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-2-q2" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-2-q3" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">25 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-2-q2" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni4.jpg" alt="Chocolate Ice Cream" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Chocolate Ice Cream</h4>
+                        <span>25 000 so'm × 2 dona</span>
+                    </div>
+                    <strong class="cart-item-price">50 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-2" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-2-q2" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-2-q3" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">50 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-2-q3" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni4.jpg" alt="Chocolate Ice Cream" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Chocolate Ice Cream</h4>
+                        <span>25 000 so'm × 3 dona</span>
+                    </div>
+                    <strong class="cart-item-price">75 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-2" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-2-q2" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-2-q3" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">75 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== 3-MAHSULOT MODALLARI ==================== -->
+    <div id="cart-3" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni3.jpg" alt="Strawberry Ice Cream" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Strawberry Ice Cream</h4>
+                        <span>20 000 so'm × 1 dona</span>
+                    </div>
+                    <strong class="cart-item-price">20 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-3" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-3-q2" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-3-q3" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">20 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-3-q2" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni3.jpg" alt="Strawberry Ice Cream" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Strawberry Ice Cream</h4>
+                        <span>20 000 so'm × 2 dona</span>
+                    </div>
+                    <strong class="cart-item-price">40 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-3" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-3-q2" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-3-q3" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">40 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-3-q3" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni3.jpg" alt="Strawberry Ice Cream" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Strawberry Ice Cream</h4>
+                        <span>20 000 so'm × 3 dona</span>
+                    </div>
+                    <strong class="cart-item-price">60 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-3" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-3-q2" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-3-q3" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">60 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== 4-MAHSULOT MODALLARI ==================== -->
+    <div id="cart-4" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni2.jpg" alt="Berry Ice Cream Cone" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Berry Ice Cream Cone</h4>
+                        <span>28 000 so'm × 1 dona</span>
+                    </div>
+                    <strong class="cart-item-price">28 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-4" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-4-q2" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-4-q3" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">28 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-4-q2" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni2.jpg" alt="Berry Ice Cream Cone" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Berry Ice Cream Cone</h4>
+                        <span>28 000 so'm × 2 dona</span>
+                    </div>
+                    <strong class="cart-item-price">56 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-4" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-4-q2" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-4-q3" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">56 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-4-q3" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Sizning Savatchangiz 🛒</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <img src="./img/morojni2.jpg" alt="Berry Ice Cream Cone" class="cart-item-img">
+                    <div class="cart-item-info">
+                        <h4>Berry Ice Cream Cone</h4>
+                        <span>28 000 so'm × 3 dona</span>
+                    </div>
+                    <strong class="cart-item-price">84 000 so'm</strong>
+                </div>
+            </div>
+            <div style="margin-top: 15px;">
+                <p style="font-size: 13px; margin-bottom: 8px;">Miqdorni o'zgartirish:</p>
+                <div style="display: flex; gap: 8px;">
+                    <a href="#cart-4" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">1 dona</a>
+                    <a href="#cart-4-q2" class="btn-sm" style="text-decoration:none; text-align:center; flex:1;">2 dona</a>
+                    <a href="#cart-4-q3" class="btn-sm active" style="text-decoration:none; text-align:center; flex:1;">3 dona</a>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">84 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== KOMBO AKSIYALAR UCHUN MODALLAR ==================== -->
+    <div id="combo-cart-1" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Kombo Savatcha 🎁</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <div class="cart-item-info">
+                        <h4>Oilaviy Pirojniy & Muzqaymoq (1+1=3)</h4>
+                        <span>Aksiya to'plami</span>
+                    </div>
+                    <strong class="cart-item-price">60 000 so'm</strong>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">60 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="combo-cart-2" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Kombo Savatcha 🎁</h2>
+            <div class="cart-items-list" style="margin-top: 15px;">
+                <div class="cart-item">
+                    <div class="cart-item-info">
+                        <h4>Kids Party Pack (4 xil konus)</h4>
+                        <span>Super kombo to'plam</span>
+                    </div>
+                    <strong class="cart-item-price">95 000 so'm</strong>
+                </div>
+            </div>
+            <div class="cart-total-box">
+                <div>
+                    <span style="font-size: 12px; display: block; opacity: 0.7;">Umumiy qiymati:</span>
+                    <h3 style="color: #2ecc71; margin: 0;">95 000 so'm</h3>
+                </div>
+                <a href="#order-now" class="modal-submit-btn" style="text-decoration: none; padding: 10px 20px; background: #2ecc71; color: #fff; border-radius: 8px; font-weight: bold;">Buyurtmani Tasdiqlash</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Modali -->
+    <div id="faq-modal" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Ko'p Beriladigan Savollar (FAQ) ❓</h2>
+            <div class="upcoming-items" style="margin-top: 15px;">
+                <div class="upcoming-card">
+                    <h4>🚚 Yetkazib berish qancha vaqt oladi?</h4>
+                    <p>Shaharchada 30-40 daqiqa ichida issiq havoda ham erimaydigan maxsus termokonteynerlarda yetkazib beramiz.</p>
+                </div>
+                <div class="upcoming-card">
+                    <h4>💳 To'lov qanday turlarda qabul qilinadi?</h4>
+                    <p>Naqd pul, Click, Payme va UzCard/Humo bank kartalari orqali to'lov qilishingiz mumkin.</p>
+                </div>
+                <div class="upcoming-card">
+                    <h4>🪑 Stol band qilish bepulmi?</h4>
+                    <p>Ha, kafeimizda joy band qilish mutlaqo bepul. Faqat oldindan qo'ng'iroq qilib qo'yish tavsiya etiladi.</p>
+                </div>
+                <div class="upcoming-card">
+                    <h4>🎁 Promokodlarni qayerdan olaman?</h4>
+                    <p>Telegram kanalimiz va Instagram sahifamizdagi e'lonlar orqali maxsus promokodlarni qo'lga kiritishingiz mumkin.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROMOKOD MODALI VA TASDIQ OYNALARI -->
+    <div id="promo-modal" class="modal-box">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Promokod Kiritish 🎁</h2>
+            <p>Chegirmaga ega bo'lish uchun mavjud promokodlardan birini tanlang:</p>
+            <div class="promo-options" style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+                <a href="#promo-15" class="promo-code-btn"><strong>DROP2026</strong><span>15% chegirma</span></a>
+                <a href="#promo-50" class="promo-code-btn"><strong>VIP50</strong><span>50% super chegirma</span></a>
+                <a href="#promo-free" class="promo-code-btn"><strong>FREEICE</strong><span>Tekin muzqaymoq 🍦</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="promo-15" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2 style="color: #2ecc71;">DROP2026 Faollashdi! 🎉</h2><p>Barcha muzqaymoqlarga <strong>15% chegirma</strong> berildi!</p></div></div>
+    <div id="promo-50" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2 style="color: #f1c40f;">VIP50 Faollashdi! 🔥</h2><p>VIP sifatida <strong>50% chegirma</strong> qo'lga kiritdingiz!</p></div></div>
+    <div id="promo-free" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2 style="color: #ff4757;">FREEICE Faollashdi! 🍦</h2><p>Buyurtmangizga <strong>1 ta bepul konus</strong> qo'shildi!</p></div></div>
+
+    <div id="search-modal" class="modal-box">
+        <div class="modal-content search-modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h2>Qidiruv va Tez kunda kutilayotgan muzqaymoqlar</h2>
+            <div class="search-input-box"><input type="text" placeholder="Muzqaymoq nomini kiriting..." class="search-input"></div>
+            <h3 class="upcoming-title">Tez kunda menyuda:</h3>
+            <div class="upcoming-items">
+                <div class="upcoming-card"><h4>Pistachio Supreme 🥑</h4><p>Pista va tabiiy qaymoqli nozik ta'm (Tez kunda)</p></div>
+                <div class="upcoming-card"><h4>Mango & Passion Fruit 🥭</h4><p>Egzotik mango pyuresi va marakuya sorbeti.</p></div>
+                <div class="upcoming-card"><h4>Vanilla Bean Classic 🍦</h4><p>Madagaskar vanili va shokolad bo'lakchalari.</p></div>
+                <div class="upcoming-card"><h4>Caramel Salted Crunch 🍯</h4><p>Tuzlangan karamel va qarsildoq yong'oqlar.</p></div>
+                <div class="upcoming-card"><h4>Blueberry Cheesecake 🫐</h4><p>Maymunjonli sous va pishloqli tort ta'mi.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="know-us" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>Know Us</h2><p><strong>Drop Cream</strong> — tabiiy mevalar va sarxil qaymoqdan tayyorlanadigan shirinliklar loyihasi.</p></div></div>
+    <div id="close-by" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>Close By</h2><p><strong>Markaziy shoxobcha:</strong> Toshkent sh., Markaziy Park qarshisida.</p></div></div>
+    <div id="order-now" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>Buyurtma berish</h2><p>Buyurtmangiz qabul qilindi!</p></div></div>
+    <div id="book-table" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>Stol Band Qilish</h2><p>Bog'lanish uchun: <strong>+998 97 246 7100</strong></p></div></div>
+    <div id="on-table-info" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>On Table</h2><p>Stolingizga yetkazib beriladi.</p></div></div>
+    <div id="delivery-info" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>Delivery</h2><p>30-40 daqiqada uyingizga yetkaziladi!</p></div></div>
+    <div id="type-cup" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>Stakan muzqaymoq</h2><p>Yumshoq qaymoqli stakandagi shirinlik.</p></div></div>
+    <div id="type-bowl" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>Kosa assorti</h2><p>Mevali va shokoladli katta kosa.</p></div></div>
+    <div id="type-cone" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>Vafli konus</h2><p>Qarsildoq vafli konusli muzqaymoq.</p></div></div>
+    <div id="type-plus" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>Qo'shimchalar</h2><p>Shokolad qoplamasi va yong'oqlar.</p></div></div>
+    <div id="trending-info" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>Trending 🔥</h2><p>Eng ko'p buyurtma qilinayotgan maxsus mahsulotlar!</p></div></div>
+    <div id="menu-modal" class="modal-box"><div class="modal-content"><a href="#" class="close-btn">&times;</a><h2>Menyu</h2><p><a href="#" style="color:#fff;">Bosh sahifa</a></p></div></div>
+
+</body>
+</html>
